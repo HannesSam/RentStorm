@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Kontroll',
+    summary: 'Omfattande Bakgrundskontroller',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Hyrfokus erbjuder en detaljerad och omfattande granskning av potentiella hyresgäster, inklusive kreditkontroll, betalningsanmärkningar, brottsregisterkontroll, sanktionslistor och hyreshistorik. Detta ger hyresvärdar en komplett bild av kandidaterna och minimerar riskerna.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Säkerhet',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Regelbunden och Automatiserad Övervakning',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Vår tjänst innebär inte bara initiala kontroller utan också regelbunden uppföljning. Hyresgästkollen uppdaterar automatiskt hyresvärdar om ändringar i en hyresgästs profil eller om nya relevanta uppgifter upptäcks.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Förenkling',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Enkel och Användarvänlig Plattform',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'All information samlas på en central plats, vilket gör det enkelt för hyresvärdar att få en överblick och hantera informationen. Vår plattform är designad för att vara intuitiv och användarvänlig, vilket sparar tid och ökar effektiviteten.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -218,11 +218,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Förenkla din vardag som hyresvärd
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Låt Hyrfokus vara din partner i att skapa en tryggare och mer lönsam uthyrningsverksamhet.
           </p>
         </div>
         <FeaturesMobile />

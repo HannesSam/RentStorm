@@ -12,15 +12,15 @@ import { Analytics } from '@vercel/analytics/react'
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main>
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
+        {/* <Faqs /> */}
         <CallToAction />
-        <Testimonials />
-        <Pricing />
-        <Faqs />
+        {/* <Testimonials /> */}
+        {/* <Pricing /> */}
       </main>
       <Footer />
       <Analytics />
