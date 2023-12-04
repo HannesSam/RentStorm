@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Förenkla din vardag och slipp oväntade överraskningar
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="mailto:simon@hyrfokus.se" color="white" className="mt-10">
             Börja
           </Button>
         </div>

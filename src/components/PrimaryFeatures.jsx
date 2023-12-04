@@ -7,9 +7,9 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
+import screenshotExpenses from '@/images/screenshots/hyrkollen.png'
+import screenshotPayroll from '@/images/screenshots/hyrlista.png'
+import screenshotVarningar from '@/images/screenshots/varningar.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
@@ -29,7 +29,7 @@ const features = [
     title: 'Spara Tid och Ansträngning',
     description:
       "Vår användarvänliga plattform samlar all information på en och samma plats, vilket gör det enkelt för dig att få en överblick och effektivt hantera din fastighetsportfölj.",
-    image: screenshotVatReturns,
+    image: screenshotVarningar,
   }
 ]
 
